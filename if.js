@@ -10,5 +10,5 @@ if (num > 10){
   return num
 }
 else {
-  return "Your number is less than 10"
+  console.log ("Your number is less than 10")
 }
