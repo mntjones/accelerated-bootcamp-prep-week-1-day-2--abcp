@@ -25,11 +25,12 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  return array.pop()
+  array.pop()
+  return array
 }
 
 function removeElementFromBeginningOfArray(array) {
-  array.slice()
+  return array.slice(1, array.length-1)
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
